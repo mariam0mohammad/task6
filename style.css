@@ -1,0 +1,78 @@
+.iphone {
+    border: none;
+    padding: 20px;
+    width: 80%; 
+    margin: auto; 
+    text-align: left;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.product {
+    border: 1px solid white; 
+    margin: 10px;
+    width: 23%; 
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s ease; 
+}
+
+.iphone12promax {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.price {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.old-price {
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: line-through;
+
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.add-to-cart {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.favorite {
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    
+}
+
+.add-to-cart:hover {
+    background-color: blue;
+}
+
